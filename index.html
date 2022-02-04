@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compass.uol</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/png" href="./assets/iconcompass.png" />
+  </head>
+
+  <body>
+    <main>
+      <section id="pagina-login">
+        <div id="container-esquerdo">
+          <div id="container">
+            <div id="frase-apresentacao">
+              <h1 id="titulo-principal">Olá,</h1>
+              <p id="paragrafo-principal">
+                Para continuar navegando de forma <br />
+                segura, efetue o login na rede.
+              </p>
+            </div>
+            <div id="campo-login">
+              <h1 id="titulo-login">Login</h1>
+              <div id="caixa-usuario">
+                <input
+                  required
+                  id="usuario"
+                  type="text"
+                  placeholder="Usuário"
+                  autocomplete="off"
+                />
+                <img id="logo-campo" src="./assets/pessoa.png" alt="" />
+              </div>
+              <div id="caixa-senha">
+                <input
+                  required
+                  id="senha"
+                  type="password"
+                  placeholder="Senha"
+                  autocomplete="off"
+                />
+                <img id="logo-campo" src="./assets/cadeado.png" alt="" />
+              </div>
+              <p id="mensagem-erro">
+                Ops, usuário ou senha inválidos.<br />Tente novamente!
+              </p>
+            </div>
+            <button id="botao-continuar">Continuar</button>
+          </div>
+        </div>
+        <div id="container-direito">
+          <div>
+            <img id="logo-compasso" src="./assets/logocompasso.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="pagina-home">
+        <div id="logo-compasso-home">
+          <img src="./assets/logocompass2.png" alt="" />
+        </div>
+        <div id="relogio"></div>
+        <div id="clima"></div>
+        <div>
+          <img src="./assets/globocompass.png" alt="" />
+        </div>
+        <div id="frases-home">
+          <div>
+            <h1></h1>
+            <p></p>
+          </div>
+          <div>
+            <h1></h1>
+            <p></p>
+          </div>
+          <div>
+            <h1></h1>
+            <p></p>
+          </div>
+          <div>
+            <h1></h1>
+            <p></p>
+          </div>
+        </div>
+      </section>
+      <script type="module" src="./index.js"></script>
+    </main>
+  </body>
 </html>
