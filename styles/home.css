@@ -1,0 +1,134 @@
+#pagina-home {
+  display: block;
+}
+
+#cabecalho {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+#relogio {
+  background-color: blue;
+}
+
+#conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85vh;
+}
+
+#globo {
+  height: 80vh;
+}
+
+#frases-home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 70%;
+}
+
+#titulo-menor {
+  text-align: right;
+}
+
+#titulo-menor h1 {
+  font-weight: bold;
+  font-size: 38px;
+  color: red;
+}
+
+#frases-home p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#titulo-maior {
+  display: flex;
+  height: 55%;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: right;
+}
+
+#titulo-maior h1 {
+  color: red;
+  font-size: 64px;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  bottom: 0%;
+  position: absolute;
+  color: white;
+  background: linear-gradient(90.16deg, #33383d 0%, #1c1d20 100%);
+}
+
+#footer-esquerdo {
+  width: 50%;
+}
+
+#descricao {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10vh;
+}
+
+#frase-descricao {
+  font-size: 12px;
+  width: 58%;
+  text-align: end;
+  margin-right: 2%;
+}
+
+#borda {
+  border-right: solid 1px white;
+  height: 70%;
+}
+
+#footer-direito {
+  display: flex;
+  width: 50%;
+}
+
+#cronometro {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+#cronometro p {
+    tex
+}
+
+#continuar-logout {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+#continuar-logout button {
+  height: 100%;
+  font-weight: bold;
+  border: 0;
+}
+
+#continuar {
+  color: red;
+  background-color: white;
+  width: 16vh;
+}
+
+#logout {
+  color: white;
+  background-color: #1d1e21;
+  width: 16vh;
+  cursor: pointer;
+}

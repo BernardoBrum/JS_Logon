@@ -1,12 +1,12 @@
 * {
   font-family: Poppins, sans-serif;
-  color: white;
 }
 
 #pagina-login {
-  display: flex;
+  display: none;
   justify-content: space-between;
   height: 100vh;
+  color: white;
 }
 
 #container-esquerdo {
@@ -49,7 +49,7 @@
 }
 
 #titulo-principal {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 #titulo-login {
@@ -64,12 +64,14 @@
   width: 100%;
   background-color: transparent;
   border: 0;
+  color: white;
 }
 
 #senha {
   width: 100%;
   background-color: transparent;
   border: 0;
+  color: white;
 }
 
 #caixa-usuario {
@@ -107,17 +109,18 @@
 }
 
 #botao-continuar {
-  background-color: red;
+  background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
   border: none;
   padding: 5%;
   border-radius: 30px;
   font-weight: bold;
   box-shadow: 5px 5px 15px rgb(15, 15, 15);
   cursor: pointer;
+  color: white;
 }
 
 #botao-continuar:hover {
-  background-color: rgb(124, 0, 0);
+  background: #7a1400;
 }
 
 #mensagem-erro {

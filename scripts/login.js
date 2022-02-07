@@ -11,7 +11,7 @@ export default function login() {
     btn.addEventListener("click", () => {
         if (usuario.value === "admin" && senha.value === "admin") {
             login.style.display = "none";
-            home.style.display = "flex";
+            home.style.display = "block";
         } else {
             erro.style.visibility = "visible";
             cxusuario.style.border = "1px solid #E9B425";
