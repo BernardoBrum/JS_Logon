@@ -3,7 +3,7 @@
 }
 
 #pagina-login {
-  display: none;
+  display: flex;
   justify-content: space-between;
   height: 100vh;
   color: white;
@@ -109,7 +109,7 @@
 }
 
 #botao-continuar {
-  background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+  background: linear-gradient(90deg, #ff2d04 0%, #c13216 100%);
   border: none;
   padding: 5%;
   border-radius: 30px;

@@ -10,7 +10,7 @@ export default function api() {
     .then((dados) => {
       const region = apiCase(dados.location.region);
 
-      temperatura.textContent = dados.current.temp_c;
+      temperatura.textContent = dados.current.temp_c.toFixed() + "°";
       localizacao.textContent = dados.location.name + " - " + region;
     });
 }

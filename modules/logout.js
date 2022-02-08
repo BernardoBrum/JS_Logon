@@ -1,13 +1,10 @@
-export default function buttonLogout(){
+export default function logout() {
+  const sair = document.querySelector("#logout");
+  const paginaLogin = document.querySelector("#pagina-login");
 
-    const getButton = document.querySelector('')
-    const displaySection1 = document.getElementById('Sectionlogin');
+  const paginaHome = document.querySelector("#pagina-home");
 
-         const displaySection2 =  document.getElementById('sectionHome');
-    
-
-
-
-
-    getButton.addEventListener('click', ()=>{
-       window.location.reload()
+  sair.addEventListener("click", () => {
+    window.location.reload();
+  });
+}

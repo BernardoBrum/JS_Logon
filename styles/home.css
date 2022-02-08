@@ -1,9 +1,10 @@
 #pagina-home {
-  display: block;
+  display: none;
+  background: linear-gradient(105.96deg, #ffffff 0%, #f0f0f0 97.86%);
 }
 
 #cabecalho {
-  background-color: rgb(255, 191, 228);
+  padding: 1% 2%;
   display: flex;
   justify-content: space-between;
   height: 25vh;
@@ -12,10 +13,13 @@
 #relogio {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: rgb(242, 252, 156);
+  justify-content: flex-start;
   align-items: center;
   font-weight: bold;
+}
+
+#relogio p {
+  font-size: 14px;
 }
 
 #numero-relogio {
@@ -23,11 +27,28 @@
   font-size: 144px;
 }
 
+#clima {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+  justify-content: space-between;
+}
+
+#temperatura {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#localizacao {
+  font-weight: bold;
+}
+
 #conteudo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70vh;
+  height: 60vh;
 }
 
 #globo {
@@ -40,7 +61,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  height: 75%;
+  height: 85%;
   margin-right: 5%;
 }
 
@@ -117,11 +138,26 @@
   width: 40%;
 }
 
+#cronometro-p {
+  font-size: 14px;
+}
+
 #cronometro-container {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+#contador {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#contador-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #continuar-logout {

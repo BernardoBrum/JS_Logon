@@ -44,7 +44,7 @@
                 <img draggable="false" id="logo-campo" src="./assets/cadeado.png" alt="" />
               </div>
               <p id="mensagem-erro">
-                Ops, usuário ou senha inválidos.<br />Tente novamente!
+                Ops, usuário ou senha inválidos.<br/>Tente novamente!
               </p>
             </div>
             <button id="botao-continuar">Continuar</button>
@@ -67,8 +67,8 @@
             <p></p>
           </div>
           <div id="clima">
-            <p></p>
-            <h1></h1>
+            <p id="localizacao"></p>
+            <h1 id="temperatura"></h1>
           </div>
         </div>
         <div id="conteudo">
@@ -104,8 +104,11 @@
           <div id="footer-direito">
             <div id="cronometro">
               <div id="cronometro-container">
-                <p>Application<br>refresh in</p>
-                <p>600 <br> seconds</p>
+                <p id="cronometro-p">Application<br>refresh in</p>
+                <div id="contador-container">
+                  <p id="contador">600</p>
+                  <p id="cronometro-p">seconds</p>
+                </div>
               </div>
             </div>
             <div id="continuar-logout">
