@@ -1,6 +1,6 @@
 export default function clock() {
-  let horas = document.querySelector("#numero-relogio");
-  let dias = document.querySelector("#relogio p");
+  const horas = document.querySelector("#numero-relogio");
+  const dias = document.querySelector("#relogio p");
   let data = new Date();
   let diaMes = data.getDate();
   let horaDia = data.getHours();

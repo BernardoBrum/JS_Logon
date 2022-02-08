@@ -1,5 +1,5 @@
 #pagina-home {
-  display: none;
+  display: block;
 }
 
 #cabecalho {
@@ -32,6 +32,7 @@
 
 #globo {
   height: 75vh;
+  max-width: 100%;
 }
 
 #frases-home {
@@ -83,7 +84,7 @@
 }
 
 #footer-esquerdo {
-  width: 48%;
+  width: 50%;
 }
 
 #descricao {
@@ -107,7 +108,7 @@
 
 #footer-direito {
   display: flex;
-  width: 50%;
+  width: 52%;
 }
 
 #cronometro {

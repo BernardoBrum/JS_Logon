@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="./assets/iconcompass.png" />
   </head>
 
-  <body>
+  <body onselectstart="return false">
     <main>
       <section id="pagina-login">
         <div id="container-esquerdo">
@@ -31,7 +31,7 @@
                   placeholder="Usuário"
                   autocomplete="off"
                 />
-                <img id="logo-campo" src="./assets/pessoa.png" alt="" />
+                <img draggable="false" id="logo-campo" src="./assets/pessoa.png" alt="" />
               </div>
               <div id="caixa-senha">
                 <input
@@ -41,7 +41,7 @@
                   placeholder="Senha"
                   autocomplete="off"
                 />
-                <img id="logo-campo" src="./assets/cadeado.png" alt="" />
+                <img draggable="false" id="logo-campo" src="./assets/cadeado.png" alt="" />
               </div>
               <p id="mensagem-erro">
                 Ops, usuário ou senha inválidos.<br />Tente novamente!
@@ -52,7 +52,7 @@
         </div>
         <div id="container-direito">
           <div>
-            <img id="logo-compasso" src="./assets/logocompasso.png" alt="" />
+            <img draggable="false" id="logo-compasso" src="./assets/logocompasso.png" alt="" />
           </div>
         </div>
       </section>
@@ -60,19 +60,20 @@
       <section id="pagina-home">
         <div id="cabecalho">
           <div id="logo-compasso-home">
-            <img src="./assets/logocompass2.png" alt="" />
+            <img draggable="false" src="./assets/logocompass2.png" alt="" />
           </div>
           <div id="relogio">
-            <h1 id="numero-relogio">11:26</h1>
-            <p>terça-feira, 17 de março de 2020</p>
+            <h1 id="numero-relogio"></h1>
+            <p></p>
           </div>
           <div id="clima">
-            <h1>JF</h1>
+            <p></p>
+            <h1></h1>
           </div>
         </div>
         <div id="conteudo">
           <div>
-            <img id="globo" src="./assets/globocompass.png" alt="" />
+            <img draggable="false" id="globo" src="./assets/globocompass.png" alt="" />
           </div>
           <div id="frases-home">
             <div id="titulo-menor">
