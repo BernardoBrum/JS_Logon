@@ -1,34 +1,46 @@
 #pagina-home {
-  display: block;
+  display: none;
 }
 
 #cabecalho {
-  background-color: red;
+  background-color: rgb(255, 191, 228);
   display: flex;
   justify-content: space-between;
-  height: 15vh;
+  height: 25vh;
 }
 
 #relogio {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(242, 252, 156);
+  align-items: center;
+  font-weight: bold;
+}
+
+#numero-relogio {
+  justify-content: center;
+  font-size: 144px;
 }
 
 #conteudo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 85vh;
+  height: 70vh;
 }
 
 #globo {
-  height: 80vh;
+  height: 75vh;
 }
 
 #frases-home {
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  height: 70%;
+  height: 75%;
+  margin-right: 5%;
 }
 
 #titulo-menor {
@@ -48,7 +60,7 @@
 
 #titulo-maior {
   display: flex;
-  height: 55%;
+  height: 60%;
   flex-direction: column;
   justify-content: space-between;
   font-size: 64px;
@@ -71,7 +83,7 @@
 }
 
 #footer-esquerdo {
-  width: 50%;
+  width: 48%;
 }
 
 #descricao {
@@ -83,7 +95,7 @@
 
 #frase-descricao {
   font-size: 12px;
-  width: 58%;
+  width: 60%;
   text-align: end;
   margin-right: 2%;
 }
@@ -104,8 +116,11 @@
   width: 40%;
 }
 
-#cronometro p {
-    tex
+#cronometro-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
 }
 
 #continuar-logout {
@@ -124,6 +139,7 @@
   color: red;
   background-color: white;
   width: 16vh;
+  padding: 0;
 }
 
 #logout {
@@ -131,4 +147,5 @@
   background-color: #1d1e21;
   width: 16vh;
   cursor: pointer;
+  padding: 0;
 }

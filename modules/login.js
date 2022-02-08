@@ -7,6 +7,7 @@ export default function login() {
     const cxsenha = document.querySelector("#caixa-senha");
     const login = document.querySelector("#pagina-login");
     const home = document.querySelector("#pagina-home");
+    const simbolo = document.querySelector("senha")
 
     btn.addEventListener("click", () => {
         if (usuario.value === "admin" && senha.value === "admin") {
@@ -18,4 +19,5 @@ export default function login() {
             cxsenha.style.border = "1px solid #E9B425";
         }
     });
+    
 }

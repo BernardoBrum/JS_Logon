@@ -3,7 +3,7 @@
 }
 
 #pagina-login {
-  display: none;
+  display: flex;
   justify-content: space-between;
   height: 100vh;
   color: white;
