@@ -1,0 +1,89 @@
+@media (max-width: 1368px) {
+  #container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  #container-direito {
+    display: none;
+  }
+  #container-esquerdo {
+    width: 100%;
+  }
+
+  #container {
+    width: 80%;
+    height: 90%;
+  }
+
+  #logocompasso-mobile-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #logocompasso-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 1750px) {
+    #cronometro-container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1368px) {
+    #frases-home {
+        display: none;
+    }
+
+    #cronometro {
+        display: none;
+    }
+
+    #continuar-logout {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer-esquerdo {
+        display: none;
+    }
+
+    #footer {
+        justify-content: flex-end;
+        height: 10vh;
+    }
+
+    #relogio {
+        display: none;
+    }
+
+    #clima {
+        display: none;
+    }
+
+    #footer-direito {
+        width: 100%;
+    }
+
+    #continuar-logout {
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    #continuar-container {
+        width: 100%;
+    }
+
+    #continuar {
+        width: 100%;
+    }
+
+    #globo {
+        max-width: 50%;
+    }
+}
+
