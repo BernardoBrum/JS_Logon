@@ -14,11 +14,14 @@ export default function login() {
     if (usuario.value === "admin" && senha.value === "admin") {
       login.style.display = "none";
       home.style.display = "block";
+      document.title = "Home - Compass";
       timer();
     } else {
       erro.style.visibility = "visible";
       cxusuario.style.border = "1px solid #E9B425";
       cxsenha.style.border = "1px solid #E9B425";
+      senha.style.letterSpacing = "0";
+      senha.value = "";
     }
   });
 }
