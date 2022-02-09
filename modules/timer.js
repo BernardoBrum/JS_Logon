@@ -6,6 +6,11 @@ export default function timer() {
     tempo--;
     contador.textContent = tempo;
     if (tempo == 0) {
+      history.pushState(
+        null,
+        "Login - Compass",
+        "https://bernardobrum.github.io/Projeto_Compass_01/"
+      );
       window.location.reload();
     }
   }, 1000);
