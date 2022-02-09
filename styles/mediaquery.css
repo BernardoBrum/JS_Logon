@@ -28,62 +28,73 @@
 }
 
 @media (max-width: 1750px) {
-    #cronometro-container {
-        width: 70%;
-    }
+  #cronometro-container {
+    width: 70%;
+  }
 }
 
 @media (max-width: 1368px) {
-    #frases-home {
-        display: none;
-    }
+  #cronometro {
+    display: none;
+  }
 
-    #cronometro {
-        display: none;
-    }
+  #continuar-logout {
+    width: 100%;
+  }
+}
 
-    #continuar-logout {
-        width: 100%;
-    }
+@media (max-width: 1050px) {
+  #frases-home {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-    #footer-esquerdo {
-        display: none;
-    }
+  #footer-esquerdo {
+    display: none;
+  }
 
-    #footer {
-        justify-content: flex-end;
-        height: 10vh;
-    }
+  #footer {
+    justify-content: flex-end;
+    height: 10vh;
+  }
 
-    #relogio {
-        display: none;
-    }
+  #relogio {
+    display: none;
+  }
 
-    #clima {
-        display: none;
-    }
+  #clima {
+    display: none;
+  }
 
-    #footer-direito {
-        width: 100%;
-    }
+  #footer-direito {
+    width: 100%;
+  }
 
-    #continuar-logout {
-        flex-direction: row-reverse;
-        width: 100%;
-    }
+  #continuar-logout {
+    flex-direction: row-reverse;
+    width: 100%;
+  }
 
-    #continuar-container {
-        width: 100%;
-    }
+  #continuar-container {
+    width: 100%;
+  }
 
-    #continuar {
-        width: 100%;
-    }
+  #continuar {
+    width: 100%;
+  }
 
-    #globo {
-        max-width: 50%;
-    }
+  #globo {
+    max-width: 50%;
+  }
 }
 
+@media (max-width: 630px) {
+  #globo {
+    height: 60vh;
+  }
+
+  #conteudo {
+    align-items: flex-end;
+  }
+}

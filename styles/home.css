@@ -99,14 +99,13 @@
   height: 100%;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 64px;
   font-weight: bold;
   text-align: right;
 }
 
 #titulo-maior h1 {
   color: red;
-  font-size: 64px;
+  font-size: clamp(1em, 3.5vw, 4em);
 }
 
 #footer {
