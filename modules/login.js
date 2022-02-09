@@ -15,11 +15,11 @@ export default function login() {
       login.style.display = "none";
       home.style.display = "block";
       document.title = "Home - Compass";
-      // history.pushState(
-      //   null,
-      //   "Home - Compass",
-      //   "https://bernardobrum.github.io/Projeto_Compass_01/home"
-      // );
+      history.pushState(
+        null,
+        "Home - Compass",
+        "https://bernardobrum.github.io/Projeto_Compass_01/home"
+      );
       timer();
     } else {
       erro.style.visibility = "visible";
