@@ -194,7 +194,7 @@
 
 #logout {
   color: white;
-  background-color: #1d1e21;
+  background:none;
   width: 16vh;
   cursor: pointer;
   padding: 0;

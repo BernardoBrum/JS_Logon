@@ -4,11 +4,11 @@ export default function logout() {
   const paginaHome = document.querySelector("#pagina-home");
 
   sair.addEventListener("click", () => {
-    history.pushState(
-      null,
-      "Login - Compass",
-      "https://bernardobrum.github.io/Projeto_Compass_01/"
-    );
+    // history.pushState(
+    //   null,
+    //   "Login - Compass",
+    //   "https://bernardobrum.github.io/Projeto_Compass_01/"
+    // );
     window.location.reload();
   });
 }

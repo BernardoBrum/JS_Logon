@@ -21,7 +21,7 @@ export default function clock() {
 
   const mesesAno = new Array(
     "janeiro",
-    "fervereiro",
+    "fevereiro",
     "março",
     "abril",
     "maio",
