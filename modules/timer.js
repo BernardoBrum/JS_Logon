@@ -9,7 +9,7 @@ export default function timer() {
       history.pushState(
         null,
         "Login - Compass",
-        "https://bernardobrum.github.io/Projeto_Compass_01/"
+        "https://bernardobrum.github.io/Projeto_Compass_01/login"
       );
       window.location.reload();
     }
